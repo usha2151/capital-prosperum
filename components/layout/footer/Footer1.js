@@ -54,7 +54,7 @@ export default function Footer1() {
                                             <Link href="insurance">Services</Link>
                                         </li> */}
                                         <li>
-                                            <Link href="/blog">Resources</Link>
+                                            <Link href="/resources">Resources</Link>
                                         </li>
                                         {/* <li>
                                             <Link href="blog">Resource</Link>

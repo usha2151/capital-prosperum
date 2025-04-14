@@ -62,7 +62,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-xl-12 col-lg-12">
                                     <div className="comment-form__input-box">
-                                        <input type="text" placeholder="Website*" name="email"/>
+                                        <input type="text" placeholder="Phone*" name="phone"/>
                                     </div>
                                 </div>
                             </div>

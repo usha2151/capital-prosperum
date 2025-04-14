@@ -19,10 +19,10 @@ function page() {
           <div className="container">
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
-                <p className="section-title__tagline">Term Loan</p>
+                <p className="section-title__tagline">Flex Loan</p>
               </div>
               <h2 className="section-title__title text-center">
-                Low, fixed, daily payments that fit your business
+              Make low, flexible, daily payments that fit your business
               </h2>
             </div>
             <div className="services-five__inner">
@@ -52,7 +52,7 @@ function page() {
                       <span className="icon-protection-1"></span>
                     </div>
                     <h3 className="services-five__title">
-                      <Link href="health-insurance">Fixed Amounts</Link>
+                      <Link href="health-insurance">Flexible Amounts</Link>
                     </h3>
                     <Link
                       href="health-insurance"

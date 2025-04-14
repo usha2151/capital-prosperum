@@ -31,7 +31,7 @@ export default function Menu() {
                     <Link href="our-process">Our Process</Link>
                 </li>
                 <li>
-                    <Link href="blog">Resource</Link>
+                    <Link href="resources">Resource</Link>
                 </li>
                 <li className="dropdown">
                     <Link href="">Partners</Link>

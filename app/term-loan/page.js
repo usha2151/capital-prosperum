@@ -7,6 +7,7 @@ import ApplyOnline from "@/components/sections/home1/ApplyOnline";
 function page() {
   return (
     <div>
+      <>fngjhdfg</>
       {" "}
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Flex Loan">
         <section className="services-five">
