@@ -16,17 +16,17 @@ export default function Footer1() {
                                         <Link href="index"><img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/logo.png"
                                                 alt=""/></Link>
                                     </div>
-                                    <p className="footer-widget__about-text">rosperum is a registered ISO of Wells
+                                    <p className="footer-widget__about-text text-justify">Rosperum is a registered ISO of Wells
                                         <br/> Fargo Bank, N.A., Walnut Creek, CA.     </p>
                                     <div className="footer-widget__emergency-call">
-                                        <Link href="tel:+134353353545">+1 343 5335 3545</Link>
+                                        <Link href="tel:(888) 608-5790">(888) 608-5790</Link>
                                     </div>
-                                    <div className="footer-widget__social">
+                                    {/* <div className="footer-widget__social">
                                         <Link href="#"><span className="icon-facebook"></span></Link>
                                         <Link href="#"><span className="icon-instagram-1"></span></Link>
                                         <Link href="#"><span className="icon-tik-tok"></span></Link>
                                         <Link href="#"><span className="icon-youtube"></span></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -36,20 +36,29 @@ export default function Footer1() {
                                     </div>
                                     <ul className="footer-widget__navigation-list list-unstyled">
                                         <li>
-                                            <Link href="index">Home</Link>
+                                            <Link href="/">Home</Link>
                                         </li>
                                         <li>
-                                            <Link href="about">About Us</Link>
+                                            <Link href="/term-loan">Term Loan</Link>
                                         </li>
                                         <li>
+                                            <Link href="/flex-loan">Flex Loan</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/installment-loan">Installment Loan</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/our-process">Our Process</Link>
+                                        </li>
+                                        {/* <li>
                                             <Link href="insurance">Services</Link>
-                                        </li>
+                                        </li> */}
                                         <li>
-                                            <Link href="contact">Contact Us</Link>
+                                            <Link href="/blog">Resources</Link>
                                         </li>
-                                        <li>
-                                            <Link href="blog">Our Blog</Link>
-                                        </li>
+                                        {/* <li>
+                                            <Link href="blog">Resource</Link>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -60,19 +69,19 @@ export default function Footer1() {
                                     </div>
                                     <ul className="footer-widget__navigation-list list-unstyled">
                                         <li>
-                                            <Link href="about">Help</Link>
+                                            <Link href="/referral-sales-partner">Referral Sales Partner</Link>
                                         </li>
                                         <li>
-                                            <Link href="contact">Support</Link>
+                                            <Link href="/distribution-sales-partner">Distribution Sales Partner</Link>
                                         </li>
                                         <li>
-                                            <Link href="testimonial">Clients</Link>
+                                            <Link href="/financial-platforms-sales-partner">Financial Platforms Sales Partner</Link>
                                         </li>
                                         <li>
-                                            <Link href="products">Shop</Link>
+                                            <Link href="/about">About Us</Link>
                                         </li>
                                         <li>
-                                            <Link href="portfolio">Portfolio</Link>
+                                            <Link href="/contact">Contact Us</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -100,7 +109,7 @@ export default function Footer1() {
             <div className="site-footer__bottom">
                 <div className="container">
                     <div className="site-footer__bottom-inner">
-                        <p className="site-footer__bottom-text">Copyright © 2024 Sonchoy by <Link href="#">thememx.</Link> All
+                        <p className="site-footer__bottom-text">Copyright © 2025 <Link href="/">Prosperum Capital LLC.</Link> All
                             Rights Reserved</p>
                     </div>
                 </div>

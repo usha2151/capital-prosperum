@@ -21,21 +21,18 @@ export default function Home() {
                                 <ul className="contact-page__contact-list list-unstyled">
                                     <li>
                                         <h5>Address</h5>
-                                        <p>254, North City, Bulex Center, New York</p>
+                                        <p>8 W 36th St, 7th Floor, New York, NY 10018</p>
                                     </li>
                                     <li>
                                         <h5>Phone</h5>
-                                        <p><Link href="tel:09354587874">09 (354) 587 874</Link><span>or</span><Link
-                                                href="tel:10698852741">10
-                                                (698) 852 741</Link></p>
+                                        <p><Link href="tel:(888) 608-5790">(888) 608-5790</Link></p>
                                     </li>
                                     <li>
                                         <h5>Email</h5>
-                                        <p><Link href="mailto:info@example.com">info@example.com</Link><span>or</span><Link
-                                                href="mailto:info@example.com">info@example.com</Link></p>
+                                        <p><Link href="apps@prosperumcapital.com">apps@prosperumcapital.com</Link></p>
                                     </li>
                                 </ul>
-                                <Link href="#" className="contact-page__link">www.example.com</Link>
+                                {/* <Link href="#" className="contact-page__link">www.example.com</Link> */}
                             </div>
                         </div>
                     </div>

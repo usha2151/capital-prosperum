@@ -10,6 +10,7 @@ export default function Abouts() {
 
     return (
         <>
+
         <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About company">
        <About/>
         <ApplyOnline/>

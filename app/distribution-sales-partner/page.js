@@ -24,10 +24,10 @@ function page() {
                                 <span className="icon-protection"></span>
                             </div>
                             <div className="feature-one__content">
-                                <p className="feature-one__sub-title">Insurance Agency</p>
-                                <h3 className="feature-one__title"><Link href="about">First & Reliable</Link></h3>
-                                <Link href="about" className="feature-one__read-more">READ MORE<span
-                                        className="icon-next"></span></Link>
+                                <p className="feature-one__sub-title">Tools to EnhancePerformance</p>
+                                <h6 className="feature-one__title"><Link href="about">Our affiliate portal has real time tracking and our APIs incorporates effortlessly within your systems.</Link></h6>
+                                {/* <Link href="about" className="feature-one__read-more">READ MORE<span
+                                        className="icon-next"></span></Link> */}
                             </div>
                         </div>
                     </div>
@@ -44,10 +44,10 @@ function page() {
                                 <span className="icon-investment"></span>
                             </div>
                             <div className="feature-one__content">
-                                <p className="feature-one__sub-title">Insurance Agency</p>
-                                <h3 className="feature-one__title"><Link href="about">Invest Your Money</Link></h3>
-                                <Link href="about" className="feature-one__read-more">READ MORE<span
-                                        className="icon-next"></span></Link>
+                                <p className="feature-one__sub-title">TrainingSupport</p>
+                                <h6 className="feature-one__title"><Link href="about">Quick, insightful and collaborative commitment to account maintenance.</Link></h6>
+                                {/* <Link href="about" className="feature-one__read-more">READ MORE<span
+                                        className="icon-next"></span></Link> */}
                             </div>
                         </div>
                     </div>
@@ -64,10 +64,10 @@ function page() {
                                 <span className="icon-risk-management"></span>
                             </div>
                             <div className="feature-one__content">
-                                <p className="feature-one__sub-title">Insurance Agency</p>
-                                <h3 className="feature-one__title"><Link href="about">Get Your Insurance</Link></h3>
-                                <Link href="about" className="feature-one__read-more">READ MORE<span
-                                        className="icon-next"></span></Link>
+                                <p className="feature-one__sub-title">Direct and Open-EndedCommissions</p>
+                                <h6 className="feature-one__title"><Link href="about">Committed to customer renewals, our exclusive team members assist in developing trustworthy relationships, and influencing greater demand for commissions.</Link></h6>
+                                {/* <Link href="about" className="feature-one__read-more">READ MORE<span
+                                        className="icon-next"></span></Link> */}
                             </div>
                         </div>
                     </div>
@@ -117,13 +117,11 @@ function page() {
                                         <div className="section-title__tagline-box">
                                             <p className="section-title__tagline">KNOW ABOUT SONCHOY</p>
                                         </div>
-                                        <h2 className="section-title__title">Choose Your Insurance
-                                            <br/> Service Company</h2>
+                                        {/* <h2 className="section-title__title">Choose Your Insurance
+                                            <br/> Service Company</h2> */}
                                     </div>
-                                    <p className="about-two__text">Arki features minimal and stylish design. The theme is well
-                                        crafted for all the modern architect and interior design website. With Arki, it makes
-                                        your website look even more attractive and impressive to</p>
-                                    <ul className="about-two__points list-unstyled">
+                                    <p className="about-two__text">Prosperum Capital is highly professional, quick and easy to work with in getting our deals financed. We could not have asked for a better experience!</p>
+                                    {/* <ul className="about-two__points list-unstyled">
                                         <li>
                                             <div className="icon">
                                                 <span className="icon-cashback"></span>
@@ -138,20 +136,20 @@ function page() {
                                             <h3>Technical
                                                 <br/> Support always</h3>
                                         </li>
-                                    </ul>
-                                    <h3 className="about-two__big-text">Duis aute irure dolor in reprehenderit in velit
-                                        esse cillum dolore eu nulla pariatur. </h3>
+                                    </ul> */}
+                                    <h3 className="about-two__big-text">Mark Salner </h3>
+                                    <p className="about-two__text">Would you like to discover more about becoming a Prosperum Capital sales partner?</p>
                                     <div className="about-two__btn-and-contact">
-                                        <div className="about-two__btn-box">
+                                        {/* <div className="about-two__btn-box">
                                             <Link href="about" className="about-two__btn thm-btn">Discover More</Link>
-                                        </div>
+                                        </div> */}
                                         <div className="about-two__contact">
                                             <div className="icon">
                                                 <span className="icon-phone-1"></span>
                                             </div>
                                             <div className="content">
                                                 <span>Call Us Free</span>
-                                                <p><Link href="tel:+9993256589">+999 325 6589</Link></p>
+                                                <p><Link href="tel:844-804-3511">844-804-3511</Link></p>
                                             </div>
                                         </div>
                                     </div>

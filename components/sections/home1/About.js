@@ -70,12 +70,12 @@ export default function About() {
 </p>
                            
                            
-                            <div className="about-one__btn-and-contact">
+                            {/* <div className="about-one__btn-and-contact">
                                 <div className="about-one__btn-box">
                                     <Link href="about" className="about-one__btn thm-btn">Discover More</Link>
                                 </div>
                               
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

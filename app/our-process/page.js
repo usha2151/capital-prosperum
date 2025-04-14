@@ -45,7 +45,7 @@ function page() {
                             </p>
                            
                            
-                            <div className="about-three__btn-and-client">
+                            {/* <div className="about-three__btn-and-client">
                                 <div className="about-three__btn-box">
                                     <Link href="about" className="about-three__btn thm-btn">Discover More</Link>
                                 </div>
@@ -55,7 +55,7 @@ function page() {
                                         <img src="assets/images/shapes/about-three-client-signature.png" alt=""/>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

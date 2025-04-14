@@ -73,17 +73,17 @@ export default function Brand() {
                             <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/Forbes_logo.svg.png" alt=""/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo3.jpg" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/twsj.png" alt=""/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo4.jpg" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/bloomberg.png" alt=""/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo5.jpg" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/New_York_Time.png" alt=""/>
                         </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
+                        {/* <SwiperSlide className="swiper-slide">
                             <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo6.jpg" alt=""/>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                         
                     </div>
                 </Swiper>
