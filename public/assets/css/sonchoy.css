@@ -4654,8 +4654,8 @@ ul {
 .why-choose-one__left {
   position: relative;
   display: block;
-  margin-left: -234px;
-  margin-right: 364px;
+  margin-left: 120px !important;
+  margin-right: 64px;
 }
 
 .why-choose-one__img-box {
@@ -10088,6 +10088,7 @@ Project Style1
 .about-four__contact .content>p>a:hover {
   color: var(--sonchoy-base);
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Three

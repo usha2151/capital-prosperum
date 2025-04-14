@@ -7,37 +7,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
         <>
             
         <header className={`main-header ${scroll ? "fixed-header" : ""}`}>
-            <div className="main-header__top">
-                <div className="main-header__top-inner">
-                    <ul className="list-unstyled main-header__contact-list">
-                        <li>
-                            <div className="icon">
-                                <i className="icon-maps-and-flags"></i>
-                            </div>
-                            <div className="text">
-                                <p>465 NT Road. North West, England</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div className="icon">
-                                <i className="icon-envelope"></i>
-                            </div>
-                            <div className="text">
-                                <p><Link href="mailto:needhelpazent@gmail.cpm">needhelpazent@gmail.cpm</Link></p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div className="main-header__top-social-box">
-                        <p className="main-header__top-social-title">Follow us:</p>
-                        <div className="main-header__top-social">
-                            <Link href="#"><i className="fab fa-twitter"></i></Link>
-                            {/* <Link href="#"><i className="fab fa-facebook"></i></Link>
-                            <Link href="#"><i className="fab fa-pinterest-p"></i></Link>
-                            <Link href="#"><i className="fab fa-instagram"></i></Link> */}
-                        </div>
-                    </div>
-                </div>
-            </div>
             <nav className="main-menu">
                 <div className="main-menu__wrapper">
                     <div className="main-menu__wrapper-inner">

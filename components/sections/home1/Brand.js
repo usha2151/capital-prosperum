@@ -67,35 +67,24 @@ export default function Brand() {
                 <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
                     <div className="swiper-wrapper">
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-1.png" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/CNN-Money.png" alt="" style={{height: "1"}}/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-2.png" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/Forbes_logo.svg.png" alt=""/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-3.png" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo3.jpg" alt=""/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-4.png" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo4.jpg" alt=""/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-5.png" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo5.jpg" alt=""/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-1.png" alt=""/>
+                            <img src="https://prosperum-capital.s3-eu-central-2.ionoscloud.com/brand-logo6.jpg" alt=""/>
                         </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-2.png" alt=""/>
-                        </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-3.png" alt=""/>
-                        </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-4.png" alt=""/>
-                        </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-5.png" alt=""/>
-                        </SwiperSlide>
+                        
                     </div>
                 </Swiper>
             </div>

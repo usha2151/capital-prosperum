@@ -3,7 +3,7 @@ import About from "@/components/sections/home1/About"
 import Banner from "@/components/sections/home1/Banner"
 import Feature from "@/components/sections/home1/Feature"
 import Funfacts from "@/components/sections/home1/Funfacts"
-import WhyChooseUs from "@/components/sections/home1/WhyChooseUs"
+import ApplyOnline from "@/components/sections/home1/ApplyOnline"
 import Service from "@/components/sections/home1/Service"
 import Video from "@/components/sections/home1/video"
 import Work from "@/components/sections/home1/Work"
@@ -23,7 +23,7 @@ export default function Home() {
                 <About />
                 {/* <Funfacts /> */}
                 {/* <Service /> */}
-                <WhyChooseUs />
+                <ApplyOnline />
                 {/* <Video /> */}
                 {/* <Work /> */}
                 <Faq />

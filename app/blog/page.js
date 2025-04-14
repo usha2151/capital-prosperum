@@ -1,11 +1,13 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import Brand from "@/components/sections/home1/Brand"
+import ApplyOnline from "@/components/sections/home1/ApplyOnline"
 export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Default">
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blogs">
         {/* Blog Page Start */}
         <section className="blog-page">
             <div className="container">
@@ -122,88 +124,17 @@ export default function Home() {
                         </div>
                     </div>
                     {/* BLog One Single End */}
-                    {/* BLog One Single Start */}
-                    <div className="col-xl-4 col-lg-4">
-                        <div className="blog-one__single">
-                            <div className="blog-one__img-box">
-                                <div className="blog-one__img">
-                                    <img src="assets/images/blog/blog-1-5.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="blog-one__content">
-                                <div className="blog-one__tag">
-                                    <span>Insurance</span>
-                                    <span>Agency</span>
-                                </div>
-                                <h3 className="blog-one__title"><Link href="blog-details">Etiam aliquam massa quis des
-                                        mauris</Link></h3>
-                                <div className="blog-one__client-info">
-                                    <div className="blog-one__client-img">
-                                        <img src="assets/images/blog/blog-one__client-img-5.jpg" alt=""/>
-                                    </div>
-                                    <div className="blog-one__client-content">
-                                        <h3>Jara Akser</h3>
-                                        <p>August 3, 2023</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* BLog One Single End */}
-                    {/* BLog One Single Start */}
-                    <div className="col-xl-4 col-lg-4">
-                        <div className="blog-one__single">
-                            <div className="blog-one__img-box">
-                                <div className="blog-one__img">
-                                    <img src="assets/images/blog/blog-1-6.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="blog-one__content">
-                                <div className="blog-one__tag">
-                                    <span>Insurance</span>
-                                    <span>Agency</span>
-                                </div>
-                                <h3 className="blog-one__title"><Link href="blog-details">Aliquam hendrerit a augue
-                                        insuscipit.</Link></h3>
-                                <div className="blog-one__client-info">
-                                    <div className="blog-one__client-img">
-                                        <img src="assets/images/blog/blog-one__client-img-6.jpg" alt=""/>
-                                    </div>
-                                    <div className="blog-one__client-content">
-                                        <h3>Alisha Martin</h3>
-                                        <p>August 3, 2023</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* BLog One Single End */}
+                  
+                   
                 </div>
             </div>
         </section>
         {/* Blog Page End */}
+<ApplyOnline/>
+        <Brand/>
 
 
-
-        {/* CTA One Start  */}
-        <section className="cta-one cta-five">
-            <div className="container">
-                <div className="cta-one__inner">
-                    <div className="cta-one__bg"
-                        style={{ backgroundImage: 'url(assets/images/shapes/cta-three-bg-shape-2.png)' }} >
-                    </div>
-                    <div className="cta-one__title-box">
-                        <h3>Get an Instant <span>Quote</span> Right Now</h3>
-                        <p>Try it risk free - We don’t charge cancellation fees</p>
-                    </div>
-                    <div className="cta-one__btn-box">
-                        <Link href="contact" className="cta-one__btn thm-btn">GET YOUR FREE QUOTE NOW</Link>
-                    </div>
-                </div>
-            </div>
-        </section>
-        {/* CTA One End  */}
-
+       
             </Layout>
         </>
     )

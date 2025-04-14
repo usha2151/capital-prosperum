@@ -40,9 +40,9 @@ export default function Banner() {
                             <div className="main-slider__shape-1 img-bounce">
                                 <img src="assets/images/shapes/main-slider-shape-1.png" alt=""/>
                             </div>
-                            <div className="main-slider__shape-2 img-bounce">
+                            {/* <div className="main-slider__shape-2 img-bounce">
                                 <img src="assets/images/shapes/main-slider-shape-2.png" alt=""/>
-                            </div>
+                            </div> */}
                             <div className="main-slider__shape-3 float-bob-y">
                                 <img src="assets/images/shapes/main-slider-shape-3.png" alt=""/>
                             </div>
@@ -55,34 +55,27 @@ export default function Banner() {
                                     <div className="main-slider__section-and-text">
                                         <div className="section-title text-left">
                                             <div className="section-title__tagline-box">
-                                                <p className="section-title__tagline">RELIABLE. pERSONABLE. fAST</p>
+                                                <p className="section-title__tagline">Funding For Your Business Made Easy</p>
                                             </div>
-                                            <h2 className="section-title__title">Life Insurance
-                                                <br/> That Creates
-                                                <br/> Future</h2>
+                                            <h2 className="section-title__title">Funding For
+                                                <br/> Your Business
+                                                <br/> Made Easy</h2>
                                         </div>
-                                        <p className="main-slider__text">Pellentesque habitant morbi tristique senectus et netus et
-                                            malesuada fames
-                                            <br/> ac turpis egestas. Proin elementum finibus lacus quis hendrerit.</p>
+                                        <p className="main-slider__text">CREDIT PROBLEMS IN THE PAST MAY NOT MATTER. 
+                                            <br/> WE LOOK AT YOUR BUSINESS,
+                                            NOT YOUR PERSONAL LIFE</p>
                                     </div>
                                     <div className="main-slider__btn-and-ratting-box">
                                         <div className="main-slider__btn-box">
                                             <Link href="about" className="main-slider__btn thm-btn">get started</Link>
                                         </div>
-                                        <div className="main-slider__ratting">
-                                            <i className="icon-star-1"></i>
-                                            <i className="icon-star-1"></i>
-                                            <i className="icon-star-1"></i>
-                                            <i className="icon-star-1"></i>
-                                            <i className="icon-star-1"></i>
-                                            <span>Rated 5/5</span>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="slide-item">
+                    {/* <SwiperSlide className="slide-item">
                         <div className="item main-slider__slide-1">
                             <div className="main-slider__shape-1 img-bounce">
                                 <img src="assets/images/shapes/main-slider-shape-1.png" alt=""/>
@@ -183,7 +176,7 @@ export default function Banner() {
                         <button type="button" className="owl-next h1n">
                             <span>›</span>
                         </button>
-                    </div>
+                    </div> */}
                 </Swiper>
 
             </section>

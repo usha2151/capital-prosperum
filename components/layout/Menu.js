@@ -22,23 +22,23 @@ export default function Menu() {
                 <li className="dropdown">
                     <Link href="#">Small Business Funding</Link>
                     <ul>
-                        <li><Link href="blog">Term Loan</Link></li>
-                        <li><Link href="blog-sidebar">Flex Loan</Link></li>
-                        <li><Link href="blog-details">Installment Loan</Link></li>
+                        <li><Link href="term-loan">Term Loan</Link></li>
+                        <li><Link href="flex-loan">Flex Loan</Link></li>
+                        <li><Link href="installment-loan">Installment Loan</Link></li>
                     </ul>
                 </li>
                 <li>
-                    <Link href="about">Our Process</Link>
+                    <Link href="our-process">Our Process</Link>
                 </li>
                 <li>
-                    <Link href="contact">Resource</Link>
+                    <Link href="blog">Resource</Link>
                 </li>
                 <li className="dropdown">
-                    <Link href="#">Partners</Link>
+                    <Link href="">Partners</Link>
                     <ul>
-                        <li><Link href="products">Referral Sales Partner</Link></li>
-                        <li><Link href="product-details">Distribution Sales Partner</Link></li>
-                        <li><Link href="product-details">Financial Platforms Sales Partner</Link></li>
+                        <li><Link href="referral-sales-partner">Referral Sales Partner</Link></li>
+                        <li><Link href="distribution-sales-partner">Distribution Sales Partner</Link></li>
+                        <li><Link href="financial-platforms-sales-partner">Financial Platforms Sales Partner</Link></li>
                     </ul>
                 </li>
                 <li>
